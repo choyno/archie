@@ -1,0 +1,250 @@
+body{
+	background:url(../images/background.jpg) repeat  transparent;
+	color: #fff;
+    font-family: Arial,Helvetica,sans-serif;
+	margin: auto;
+}
+
+img{
+	margin: 0, 0px;
+	padding: 0;
+	border: 0;
+}
+
+.header{
+	background:url(../images/header-bg.png) repeat scroll transparent;
+	border-bottom: ;
+    height: 62px;
+    margin-bottom: 50px;
+    width: 100%;
+    position: fixed;
+}
+
+.header .menu{
+	text-align: right;
+	padding: 5px 5em 0 0;
+}
+
+.header .menu ul{
+
+}
+
+.header .menu li{
+	text-decoration: none;
+	display: inline;
+	padding: 7px;
+}
+
+.header .menu  a{
+	text-decoration: none;
+	letter-spacing: 2px;
+	color: #c8c8c8;
+	font-size: 17px;
+}
+
+.header .menu  a:hover{
+	text-decoration: underline;
+	color: #fff;
+}
+
+.header .menu  .active{
+	text-decoration: underline;
+	color: #fff;
+}
+
+.details{
+	/**background:url(../images/scroll.png) repeat scroll transparent;
+	width: 360px;
+	height: 360px;**/
+	padding: 7em 0 0;
+}
+
+.details .name{
+	font-size: 45px;
+	letter-spacing: 3px;
+	color: #FDD017;
+}
+
+.details .sub_n{
+	font-size: 25px;
+	letter-spacing: 3px;
+	color: #fff;
+}
+
+.details .sub_email{
+	font-size: 15px;
+	color: #6698FF;
+}
+
+
+.details .info{
+	text-align: justify;
+	width: 50%;
+	line-height: 23px;
+	letter-spacing: 1.2px;
+}
+
+.footer {
+	padding: 2em 0;
+}
+
+.footer .cright{
+	font-size: 12px;
+	letter-spacing: 3px;
+	color: #c8c8c8;
+}
+
+
+/**----SKILLS CSS -----**/
+
+.s_details{
+	padding: 7em 0 0;
+	width: 1070px;
+	text-align: left;
+}
+
+.s_details .s_name{
+	font-size: 45px;
+	letter-spacing: 3px;
+	color: #FDD017;	
+}
+
+.s_details .s_name2{
+	font-size: 15px;
+	letter-spacing: 3px;
+	color: #cecece;	
+}
+
+
+
+.s_details .code_title{
+	font-size: 25px;
+	letter-spacing: 3px;
+	color: #FFFF00;	
+}
+
+
+.project{
+	width:100%;
+	height: 250px;
+	margin:0 auto;
+	clear:both;
+}
+
+.project div{
+	width:340px;
+	height:55px;
+	float:left;
+	display:block;
+	margin:0 6px;
+}
+
+.project_details{
+	
+}
+
+.project_details .proj_info{
+	padding: 10px 0 0;
+	width: 300px;
+}
+
+.img_opacity{
+	opacity:1.0;
+	filter:alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.img_opacity:hover{
+	opacity:0.7;
+	zoom:1;
+	filter:alpha(opacity=45); /* For IE8 and earlier */
+}
+
+.project_details .proj_info .view_work{
+	text-decoration: none;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #6698FF;
+}
+
+.project_details .proj_info .view_work:hover{
+	text-decoration: underline;
+	color: #6698FF;
+}
+
+.project_details .proj_info .w_details{
+	text-align: justify;
+	font-size: 13px;
+}
+
+
+/**--end SKILLS CSS--**/
+
+.s_project{
+	padding: 2em 5em 0;
+	clear:both;
+}
+
+.project .s_left{
+	float: left;
+	margin: 0 0 0 0;
+}
+
+.project .s_left .s_left_tt{
+	font-size: 20px;
+	letter-spacing: 2px;
+	color: #82CAFF;
+}
+
+.project .s_left ul{
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.project .s_left li{
+	text-decoration: none;
+	list-style:none;
+	letter-spacing: 1px;
+	line-height: 25px;
+}
+
+
+.project .s_right{
+	float: right;
+	margin: 0 10em 0 0em;
+	.margin: 0;
+}
+
+.project .s_right .s_right_tt{
+	font-size: 20px;
+	letter-spacing: 2px;
+	color: #82CAFF;
+}
+
+.project .s_right ul{
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.project .s_right li{
+	text-decoration: none;
+	list-style:none;
+	letter-spacing: 1px;
+	line-height: 25px;
+}
+
+.s_left .logo_site{
+	margin: 0 0 0 -15px;
+	.margin: 0;
+}
+
+.s_right .logo_site{
+	margin: 0 0 0 -15px;
+	.margin: 0;
+}
+
+/**sample sample**/
+
+#slideshow {
+	width: 600px;
+	height: 200px;
+}

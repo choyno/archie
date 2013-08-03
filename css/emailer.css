@@ -1,0 +1,97 @@
+#outlook a {padding:0;} 
+body{width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0;} 
+.ExternalClass {width:100%;}
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+#backgroundTable {margin:0; padding:0; width:100% !important; line-height: 100% !important;}
+
+img {outline:none; text-decoration:none; -ms-interpolation-mode: bicubic;} 
+a img {border:none;} 
+.image_fix {display:block;}
+
+p {margin: 1em 0;}
+
+h1, h2, h3, h4, h5, h6 {color: black !important;}
+
+table td {border-collapse: collapse;}
+
+table { border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; }
+
+a {color: blue;}
+
+/* TDV */
+body {
+	text-align:center;
+}
+#backgroundTable {
+	text-align:left;
+	width:96% !important;
+	margin:1em auto;			
+	font-family:Georgia,Times,Serif;
+	font-size:16px;
+	line-height:1.1em !important;
+}
+#content_table {
+	border: 1px solid #000;
+	width:100% !important;
+	line-height:1.5em;
+	border-top:7px solid #000;
+}
+#mobile_voucher_table {
+	display:none;
+}
+#content_table td {
+	/*padding:1em;*/
+}
+#fine_print {
+	font-size:.8em;
+}
+#voucher_container {
+	width:36%;
+	text-align:right;
+}
+#voucher_container table {
+	border:1px solid #333;
+	text-align:left;
+	line-height:1.3em;
+}
+#footer {
+	text-align:right;
+	font-size:.9em;
+	border-top:1px solid #ccc;
+}
+
+@media only screen and (max-device-width: 480px) {
+	a[href^="tel"], a[href^="sms"] {
+		text-decoration: none;
+		color: blue;
+		pointer-events: none;
+		cursor: default;
+	}
+
+	.mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
+		text-decoration: default;
+		color: blue !important;
+		pointer-events: auto;
+		cursor: default;
+	}
+	#backgroundTable {
+		font-size:20px;
+		width:100% !important;
+	}
+	#mobile_voucher_table {
+		display:block;
+		font-size:16px;
+	}
+	#mobile_voucher_table td {
+		padding:1em 1em 1.5em;
+	}
+	#voucher_container {
+		display:none;
+	}
+}
+
+@media only screen and (min-device-width: 961px){
+	#backgroundTable {
+		width:700px !important;
+	}	
+}
