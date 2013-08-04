@@ -1,0 +1,96 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>My PortFolio</title>
+	<link type="text/css" href="css/style.css" rel="stylesheet"/>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+	<script>
+		!window.jQuery && document.write('<script src="./js/jquery-1.4.3.min.js"><\/script>');
+	</script>
+	<script type="text/javascript" src="./fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="./fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="./fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			*   Examples - images
+			*/
+			$("a#example2").fancybox({
+				'overlayShow'	: false,
+				'transitionIn'	: 'elastic',
+				'transitionOut'	: 'elastic'
+			});
+
+			$("a[rel=example_group]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+		});
+	</script>
+</head>
+	<body>
+	<center>
+		<div class="header">
+			<div class="menu">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="#" class="active">Skills</a></li>
+					<li><a id="example2" href="./images/contact.jpg">Contact</a></li>
+				</ul>				
+			</div><!--End of Menu-->
+		</div><!--End of header-->
+			<div class="s_details">
+				<span class="s_name">SKILLS</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="s_name2">Technical and skill experience</span><br/><br/>
+				<div class="project s_project" >
+					<div class="s_right">
+						<div class="logo_site">
+							<img src="images/database_logo.png" alt="database">
+							<span class="s_right_tt">DATABASE</span>
+						</div>
+						<ul>
+							<li>MySQL</li>
+						</ul>
+						<br/>
+						<div class="logo_site">
+							<img src="images/graphics_logo2.png" alt="database">
+							<span class="s_right_tt">Graphics</span>
+						</div>
+						<ul>
+							<li>Adobe Photoshop CS3</li>
+						</ul>
+					</div><!--End of s_right-->
+					<div class="s_left">
+						<div class="logo_site">
+							<img src="images/web.png" alt="website">
+							<span class="s_left_tt">WEB DEVELOPMENT</span><br/>
+						</div>
+						<ul>
+							<li>HTML (HyperText Markup Language)</li>
+							<li>CSS (Cascading Style Sheet)</li>
+							<li>PHP (HyperText Preprocessor)</li>
+							<li>CMS (Content Management System)
+								<ul>
+									<li>Joomla</li>
+									<li>WordPress</li>
+								</ul>
+							</li>
+							<li>JAVASCRIPT
+								<ul>
+									<li>Jquery</li>
+								</ul>
+							</li>
+						</ul>
+					</div><!--End of s_left-->
+				</div><!--End of project s_project-->
+			</div><!--End of s_details-->
+			<div class="footer">
+				<span class="cright">Copyright 2012. All rights reserved.</span>
+			</div>	<!--End of footer-->		
+	</center>	
+	</body>
+</html>

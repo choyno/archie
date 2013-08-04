@@ -1,0 +1,276 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>My PortFolio</title>
+	<link type="text/css" href="css/style.css" rel="stylesheet"/>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+	<script>
+		!window.jQuery && document.write('<script src="./js/jquery-1.4.3.min.js"><\/script>');
+	</script>
+	<script type="text/javascript" src="./js/jquery.blockUI.js"></script>
+	<script type="text/javascript" src="./fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="./fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="./fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			*   Examples - images
+			*/
+
+			$("a#example1").fancybox();
+
+			$("a#example2").fancybox({
+				'overlayShow'	: false,
+				'transitionIn'	: 'elastic',
+				'transitionOut'	: 'elastic'
+			});
+
+			$("a#example3").fancybox({
+				'transitionIn'	: 'none',
+				'transitionOut'	: 'none'	
+			});
+
+			$("a#example4").fancybox({
+				'opacity'		: true,
+				'overlayShow'	: false,
+				'transitionIn'	: 'elastic',
+				'transitionOut'	: 'none'
+			});
+
+			$("a#example5").fancybox();
+
+			$("a#example6").fancybox({
+				'titlePosition'		: 'outside',
+				'overlayColor'		: '#000',
+				'overlayOpacity'	: 0.9
+			});
+
+			$("a#example7").fancybox({
+				'titlePosition'	: 'inside'
+			});
+
+			$("a#example8").fancybox({
+				'titlePosition'	: 'over'
+			});
+
+			$("a[rel=example_group]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+		});
+	</script>
+</head>
+	<body>
+	<center>
+		<div class="header">
+			<div class="menu">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#" class="active">Portfolio</a></li>
+					<li><a href="skills.html">Skills</a></li>
+					<li><a id="example2" href="./images/contact.jpg">Contact</a></li>
+				</ul>				
+			</div><!--End of Menu-->
+		</div><!--End of header-->
+			<div class="s_details">
+				<span class="s_name">MY PORTFOLIO</span><br/><br/>
+
+				<!--Wordpress work start-->
+
+				<span class="code_title"><b>WORDPRESS</b> (CMS)</span><br/><br/>
+				<div class="project">
+					  <div class="project_details">
+						<a id="example1" href="./images/clubnyc_full.jpg" class="img_opacity" title="Clubs in New York">
+							<img src="images/clubnyc.jpg" width="325px" height="120px" alt="Clubs in New York">
+						</a>
+						<div class="proj_info">
+						<!-- <a href="http://www.bestclubsinnewyork.net/" target="_blank" class="view_work">View work</a> -->
+							<p class="w_details">
+								<b>Clubs In New York</b> was a Manhattan’s hottest new nightlife
+								concierge agency and has a combined total of over 20 years of 
+								experience in the hospitality sector in New York.
+							</p>							
+						</div><!--End of proj_info-->
+					  </div><!--End of project_details-->
+					  <div class="project_details">
+						<a id="example1" href="./images/hkf_full.jpg" class="img_opacity" title="Helen Knoll Foundation">
+							<img src="images/hkf.jpg" width="325px" height="120px" alt="Helen Knoll Foundation">
+						</a>
+						<div class="proj_info">
+						<a href="http://helenknollfoundation.org/" target="_blank" class="view_work">View work</a>
+							<p class="w_details">
+								<b>Helen Knoll Foundation</b> was an early detection
+								charity that advocates for comprehensive breast health for women.
+							</p>							
+						</div><!--End of proj_info-->
+					  </div><!--End of project_details-->
+					  <div class="project_details">
+						<a id="example1" href="./images/esdcjf_full.jpg" class="img_opacity" title="Eastern San Diego County Junior Fair">
+							<img src="images/esdcjf.jpg" width="325px" height="120px" alt="Eastern San Diego County Junior Fair">
+						</a>
+						<div class="proj_info">
+						<a href="http://esdcjf.org/" target="_blank" class="view_work">View work</a>
+							<p class="w_details">
+								<b>Eastern San Diego County Junior Fair</b> was unique 
+								atmosphere of community that focuses on the fundamentals,
+								livestock, clothing, preserves and farming skills.
+							</p>							
+						</div><!--End of proj_info-->
+					  </div><!--End of project_details-->
+				</div><!--End of project--><br/><br/>
+
+				<!--Wordpress work end-->
+
+				<!--JOOMLA work start-->
+
+				<span class="code_title"><b>JOOMLA</b> (CMS)</span><br/><br/>
+				<div class="project">
+					  <div class="project_details">
+						<a id="example1" href="./images/glc_full.jpg" class="img_opacity" title="Gwinnett Learning Center">
+							<img src="images/glc.jpg" width="325px" height="120px" alt="Gwinnett Learning Center">
+						</a>
+						<div class="proj_info">
+						<a href="http://www.glcdui.com" target="_blank" class="view_work">View work</a>
+							<p class="w_details">
+								 <b>Gwinnett Learning Center</b> was the most comprehensive 
+								 customer support in industry and offered the best customer service 
+								 by providing the best overall DUI & Defensive Driving Program for all.
+							</p>							
+						</div><!--End of proj_info-->
+					  </div><!--End of project_details-->
+					  <div class="project_details">
+						<a id="example1" href="./images/softdelta_full.jpg" class="img_opacity" title="SoftDelta">
+							<img src="images/softdelta.jpg" width="325px" height="120px" alt="SoftDelta">
+						</a>
+						<div class="proj_info">
+						<a href="http://www.softdelta.com" target="_blank" class="view_work">View work</a>
+							<p class="w_details">
+								<b>SoftDelta</b> was a business management solution for small 
+								and mid-sized organizations that helps you simplify and 
+								streamline your highly specialized business processes.
+							</p>							
+						</div><!--End of proj_info-->
+					  </div><!--End of project_details-->
+					  <div class="project_details">
+						<a id="example1" href="./images/expobk_full.jpg" class="img_opacity" title="BROOKLYN BUSINESS EXPO">
+							<img src="images/expobk.jpg" width="325px" height="120px" alt="BROOKLYN BUSINESS EXPO">	
+						</a>
+						<div class="proj_info">
+						<a href="http://expobk.com/index.php" target="_blank" class="view_work">View work</a>
+							<p class="w_details">
+								<b>Brooklyn Business EXPO</b> was a provided hundreds of local 
+								business persons with an opportunity to showcase their services 
+								and products to one another.
+							</p>							
+						</div><!--End of proj_info-->
+					  </div><!--End of project_details-->					  
+				</div><!--End of project-->
+				<div class="project">
+					  <div class="project_details">
+						<a id="example1" href="./images/fun_full.jpg" class="img_opacity" title="Family Unity Network">
+							<img src="images/fun.jpg" width="325px" height="120px" alt="Family Unity Network">
+						</a>
+						<div class="proj_info">
+						<a href="http://www.keshwani.net/familyunitynetwork.ca/joomla/" target="_blank" class="view_work">View work</a>
+							<p class="w_details">
+								<b>Family Unity Network</b> was a promotion of education, 
+								skill enhancement, counseling advocacy and community development.
+							</p>							
+						</div><!--End of proj_info-->
+					  </div><!--End of project_details-->					  
+				</div><!--End of project-->
+
+				<!--JOOMLA work start-->
+
+				<!--Ror work start-->
+
+				<span class="code_title"><b>Ruby On Rails</b></span><br/><br/>
+				<div class="project">
+					  <div class="project_details">
+						<a id="example1" href="./images/tdv_full.jpg" class="img_opacity" title="TheDreamvine">
+							<img src="images/tdv.jpg" width="325px" height="120px" alt="Gwinnett Learning Center">
+						</a>
+						<div class="proj_info">
+							<p class="w_details">
+								 <b>TheDreamvine</b> serves as a marketplace to help connect people, the event organizers with people who are passionate about these events and have the ability to drive ticket sales for them, the promoters.
+							</p>							
+						</div><!--End of proj_info-->
+					  </div><!--End of project_details-->
+				</div><!--End of project--><br/><br/>
+
+
+				<!--Ror work end-->
+
+				<!--HTML work start-->
+				<span class="code_title"><b>HTML</b> (HyperText Markup Language)</span><br/><br/>
+				<div class="project">
+					  <div class="project_details">
+						<a id="example1" href="./images/mistretta_full.jpg" class="img_opacity" title="Mistretta Studio Design">
+							<img src="images/mistretta.jpg" width="325px" height="120px" alt="Mistretta Studio Design" >
+						</a>
+						<div class="proj_info">
+						<!-- <a href="http://spicewebsolutions.com/mistrettadesignstudio/" target="_blank" class="view_work">View work</a> -->
+							<p class="w_details">
+								<b>Mistretta Design Studio</b> was a unique and 
+								professional looking websites as well as 
+								print and logo design services. 
+							</p>							
+						</div><!--End of proj_info-->
+					  </div><!--End of project_details-->
+					  <div class="project_details">
+						<a id="example1" href="./images/acquality_full.jpg" class="img_opacity" title="A&C Quality Air">
+							<img src="images/acquality.jpg" width="325px" height="120px" alt="A&C Quality Air">
+						</a>
+						<div class="proj_info">
+							<!--<a href="http://acqualityair.com//" target="_blank" class="view_work">View work</a>-->
+							<p class="w_details">
+								<b>A&C QUALITY AIR</b> was an excellent customer 
+								service as well as to gain your trust and 
+								business for countless years to come.
+							</p>							
+						</div><!--End of-->
+					  </div><!--End of project_details-->
+					  <div class="project_details">
+						<a id="example1" href="./images/educenter_full.jpg" class="img_opacity" title="Education Center">
+							<img src="images/educenter.jpg" width="325px" height="120px" alt="Education Center">
+						</a>
+						<div class="proj_info">
+							<!-- <a href="http://spicewebsolutions.com/educationcentre/" target="_blank" class="view_work">View work</a> -->
+							<p class="w_details">
+								<b>Education Center</b> was a stepping stone for 
+								producing world-class songs, albums, and stage
+								performances, with a focus on launching careers.
+							</p>						
+						</div><!--End of proj_info-->
+					  </div><!--End of project_details-->					  
+				</div><!--End of-->
+				<div class="project">
+					  <div class="project_details">
+						<a id="example1" href="./images/homeval_full.jpg" class="img_opacity" title="Brampton House">
+							<img src="images/homeval.jpg" width="325px" height="120px" alt="Brampton House">
+						</a>
+						<div class="proj_info">						
+							<!--<a href="http://bramptonhousevalue.com/" target="_blank" class="view_work">View work</a>-->
+							<p class="w_details">
+								<b>Bramton House Value</b> was a FREE NO OBLIGATION ONLINE HOME EVALUATION
+								service will help you find your homes & 
+								condos current market value and a suggested listing price.
+							</p>
+						</div><!--End of-->
+					  </div><!--End of project_details-->
+				</div><!--End of project--><br/><br/>
+				
+				<!--HTML work end-->
+
+			</div><!--End of s_details-->
+
+			<div class="footer">
+				<span class="cright">Copyright 2012. All rights reserved.</span>
+			</div><!--End of footer-->			
+	</center>	
+	</body><!--End of-->
+</html><!--End of-->

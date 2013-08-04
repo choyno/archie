@@ -1,0 +1,68 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>My PortFolio</title>
+	<link type="text/css" href="css/style.css" rel="stylesheet"/>
+	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+	<script>
+		!window.jQuery && document.write('<script src="./js/jquery-1.4.3.min.js"><\/script>');
+	</script>
+	<script type="text/javascript" src="./fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="./fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="./fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			*   Examples - images
+			*/
+			
+			$("a#example2").fancybox({
+				'overlayShow'	: false,
+				'transitionIn'	: 'elastic',
+				'transitionOut'	: 'elastic'
+			});
+
+			$("a[rel=example_group]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+		});
+	</script>	
+</head>
+	<body>
+	<center>
+		<div class="header">
+			<div class="menu">
+				<ul>
+					<li><a href="index.html" class="active">Home</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="skills.html">Skills</a></li>
+					<li><a id="example2" href="./images/contact.jpg">Contact</a></li>
+				</ul>				
+			</div>
+		</div>
+		<div class="details">
+			<span class="name">ARCHIE F. LOPEZ</span><br/><br/>
+			<span class="sub_n">Web Developer</span><br/><br/>
+			<!--<span class="sub_email">1 year experience</span><br/><br/>-->
+			<p class="info">
+				To obtain a position with a progressive web development or software development company with a strong focus on creativity and problem solving. To find a position that is challenging, rewarding and provides an opportunity to expand my knowledge and abilities in creating client centric solutions..
+			</p>
+			<p class="info">
+				More than 2 years of experience in software development. Knowledgeable with content management, ecommerce and project based on PHP, Ruby in conjunction with various other web development technologies. Mostly task to implement layouts and templates for the various small companies and individuals				
+			</p>
+			<p class="info">
+				 
+			</p>
+		</div>
+		<div class="footer">
+			<span class="cright">Copyright 2012. All rights reserved.</span>
+		</div>				
+	</center>	
+	</body>
+</html>
